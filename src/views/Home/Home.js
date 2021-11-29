@@ -1,4 +1,3 @@
-/* eslint-disable prettier/prettier */
 import React from 'react'
 import { useState } from 'react'
 import Preview from '../../components/Preview/Preview'
@@ -19,15 +18,10 @@ export default function Home() {
       {/* pass the state variables as props to the presentational components */}
       <Preview 
         title={title}
-        setTitle={setTitle}
         subtitle={subtitle}
-        setSubtitle={setSubtitle}
         font={font}
-        setFont={setFont}
         align={align}
-        setAlign={setAlign}
         text={text}
-        setText={setText}
       />
       <Editor     
         title={title}
